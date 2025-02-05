@@ -1,0 +1,24 @@
+.nav {
+    background-color: #191919;
+    color: white;
+    width: 100;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20rem;
+}
+.nav img:hover {
+    height: 70px;
+    width: 70px;
+    border-radius: 20rem;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+

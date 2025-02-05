@@ -1,0 +1,68 @@
+.home-page {
+    background-color: #282828;
+    color: white;
+}
+.title img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20rem;
+
+}
+.title img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    height: 400px;
+}
+.title h1{
+    padding-right: 30px;
+    font-weight: 200;
+    font-size: 50px;
+}
+.divi {
+    color: #282828;
+}
+.title1 h2 {
+    padding-top: 10px;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.socials h2{
+    padding: 30px;
+}
+.links {
+    width: 300px;
+    height: 80px;
+    background-color: #191919;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a {
+    padding: 10px;
+    background-color: #191919;
+    font-size: 30px;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.links a:hover {
+    padding: 15px;
+    background-color: #353535;
+    transition: 0.3s;
+    cursor: pointer;
+}
